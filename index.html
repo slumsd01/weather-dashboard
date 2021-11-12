@@ -5,11 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Weather Dashboard</title>
 </head>
 
 <body>
-    <script src="/script.js"></script>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-3">
+            <h3>Search for a city:</h3>
+            <form>
+                <div class="mb-3">
+                    <input type="text" placeholder="Detroit">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+                <div id="line-break"></div>
+                <div id="recent-cities"></div>
+            </form>
+        </div>
+        
+        <div class="col-9">
+            <div class="container" id="current-weather">
+                <h3 id="city-name">Atlanta <span id="date">(11/11/2021)</span></h3>
+                <p>Temp: <span id="current-temp"></span></p>
+                <p>Wind: <span id="current-wind"></span></p>
+                <p>Humidity: <span id="current-humidity"></span></p>
+                <p>UV Index: <span id="current-uv-index"></span></p>
+            </div>
+
+            <div class="container">
+                <h5>5-Day Forecast:</h5>
+                <div class="row">
+                    <div class="col forecast">
+                        <p id="day1-date">11/11/2021</p>
+                        <p>Temp: <span id="day1-temp"></span></p>
+                        <p>Wind: <span id="day1-wind"></span></p>
+                        <p>Humidity: <span id="day1-humidity"></span></p>
+                    </div>
+
+                    <div class="col forecast">
+                        <p id="day2-date">11/11/2021</p>
+                        <p>Temp: <span id="day2-temp"></span></p>
+                        <p>Wind: <span id="day2-wind"></span></p>
+                        <p>Humidity: <span id="day2-humidity"></span></p>
+                    </div>
+
+                    <div class="col forecast">
+                        <p id="day3-date">11/11/2021</p>
+                        <p>Temp: <span id="day3-temp"></span></p>
+                        <p>Wind: <span id="day3-wind"></span></p>
+                        <p>Humidity: <span id="day3-humidity"></span></p>
+                    </div>
+
+                    <div class="col forecast">
+                        <p id="day4-date">11/11/2021</p>
+                        <p>Temp: <span id="day4-temp"></span></p>
+                        <p>Wind: <span id="day4-wind"></span></p>
+                        <p>Humidity: <span id="day4-humidity"></span></p>
+                    </div>
+
+                    <div class="col forecast">
+                        <p id="day5-date">11/11/2021</p>
+                        <p>Temp: <span id="day5-temp"></span></p>
+                        <p>Wind: <span id="day5-wind"></span></p>
+                        <p>Humidity: <span id="day5-humidity"></span></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

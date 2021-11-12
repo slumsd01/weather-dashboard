@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+}
+
+.row {
+    margin:auto;
+}
+
+input {
+    width:100%;
+}
+
+button.btn.btn-primary {
+    width: 100%;
+}
+
+#line-break {
+    border-top: 2px solid gray;
+    margin-top: 10px;
+}
+
+div#current-weather.container {
+    border: 2px solid gray;
+}
+
+div.col.forecast {
+    background: #0d6efd;
+    color:white;
+    margin:5px;
+}
