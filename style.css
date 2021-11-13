@@ -23,7 +23,7 @@ div#current-weather.container {
     border: 2px solid gray;
 }
 
-div.col.forecast {
+div.col.forecastcards {
     background: #0d6efd;
     color:white;
     margin:5px;
