@@ -28,3 +28,33 @@ div.col.forecast {
     color:white;
     margin:5px;
 }
+
+.low-uv {
+    padding: 0 15px;
+    background-color:green;
+    color:white;
+}
+
+.moderate-uv {
+    padding: 0 15px;
+    background-color:yellow;
+    color:white;
+}
+
+.high-uv {
+    padding: 0 15px;
+    background-color:orange;
+    color:white;
+}
+
+.very-high-uv {
+    padding: 0 15px;
+    background-color:red;
+    color:white;
+}
+
+.extreme-uv {
+    padding: 0 15px;
+    background-color:purple;
+    color:white;
+}
