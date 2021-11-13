@@ -19,11 +19,16 @@ button.btn.btn-primary {
     margin-top: 10px;
 }
 
+button.btn.btn-secondary {
+    width: 100%;
+    margin-top: 10px;
+}
+
 div#current-weather.container {
     border: 2px solid gray;
 }
 
-div.col.forecastcards {
+div.col.forecast-cards {
     background: #0d6efd;
     color:white;
     margin:5px;
